@@ -25,7 +25,7 @@ echo "image: ${coda_daemon_image}"
 
 echo "--- Building test-executive"
 
-dune build --profile=testnet_postake_medium_curves src/app/test_executive/test_executive.exe
+dune build --profile=testnet_postake_medium_curves src/app/test_executive/test_executive.exe --verbose
 
 echo "--- Clone coda-automation repo (this would be changed in future. Nathan is suggesting linking coda-automation in coda repo)"
 
